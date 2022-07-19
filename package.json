@@ -7,13 +7,11 @@
   	"start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "RyannKim327",
   "license": "ISC",
   "dependencies": {
     "fs": "^0.0.1-security",
     "js-sha256": "^0.9.0",
     "express": "^4.18.1"
-  },
-  "devDependencies": {}
+  }
 }
