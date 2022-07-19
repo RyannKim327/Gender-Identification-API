@@ -1,14 +1,13 @@
-const express = require("express")
 const fs = require("fs")
 const sha = require("js-sha256")
+const express = require("express")
+
 const app = express()
 
 const port = process.env.PORT || 3000
 
 app.get("/", (req, res) => {
-	
 	let json = JSON.parse(fs.readFileSync("names.json", "utf-8"))
-	
 	if(req.query.entry != undefined){
 		/*
 		* -1 For Unisex
