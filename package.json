@@ -1,0 +1,19 @@
+
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "express": "4.17.2",
+    "js-sha256": "8.2.1"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts ": {
+    "start": "node index.js",
+    "install-dep": "npm i --no-bin-links"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
