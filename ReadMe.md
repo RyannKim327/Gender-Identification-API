@@ -41,7 +41,7 @@ module.exports = (data) => {
 ```
 Sample actual result
 ``` JSON
-	"name": "Ryann Kim Sesgundo,
+	"name": "Ryann Kim Sesgundo",
 	"gender": 1
 ```
 > The `name` returns as what name you inserted, while the gender is the integer value. I use different integer like using binary and negatives, here are the integer value, and its meaning.
