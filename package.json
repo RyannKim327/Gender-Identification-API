@@ -8,9 +8,9 @@
   "name": "nodejs",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts ": {
+  "scripts": {
     "start": "node index.js",
-    "install-dep": "npm i --no-bin-links"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
