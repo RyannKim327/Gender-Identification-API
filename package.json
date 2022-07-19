@@ -9,8 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "install-dep": "npm install --no-bin-links\nnpm install fs\nnpm install js-sha256"
+    "start": "npm install --no-bin-links\nnpm install fs\nnpm install js-sha256\nnode index.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
