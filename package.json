@@ -2,10 +2,10 @@
 {
   "dependencies": {
     "fs": "^0.0.1-security",
-    "express": "4.17.2",
-    "js-sha256": "8.2.1"
+    "express": "^4.18.1",
+    "js-sha256": "^8.2.1"
   },
-  "name": "nodejs",
+  "name": "Gender Identification Api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "RyannKim327",
   "license": "ISC",
-  "description": ""
+  "description": "A simple gender identification api based on the names"
 }
