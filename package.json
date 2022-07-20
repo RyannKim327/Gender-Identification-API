@@ -1,20 +1,18 @@
 {
-  "name": "gender-identification-api",
+  "name": "Gender-Identification-API",
   "version": "1.0.0",
-  "description": "I try to create a gender api, since I can't receive any email from a gender API where I signed in.",
+  "description": "A simple gender identification api based on user's name",
   "main": "index.js",
-  "engines": {
-  	"node": "14.x"
-  },
   "scripts": {
   	"start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "RyannKim327",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.1",
     "fs": "^0.0.1-security",
-    "js-sha256": "^0.9.0",
-    "express": "^4.18.1"
+    "js-sha256": "^0.9.0"
   }
 }
